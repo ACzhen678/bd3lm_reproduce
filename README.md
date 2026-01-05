@@ -1,6 +1,7 @@
 # [Block Diffusion: Interpolating Between Autoregressive and Diffusion Language Models](https://arxiv.org/abs/2503.09573) (ICLR 2025 Oral)
 
 ![graphical_abstract](graphical_abstract.png) 
+
  
 ## 项目简介
 该项目是“块扩散语言模型（Block Diffusion Language Model）”，是扩散语言模型家族的核心成员之一。扩散语言模型作为文本生成模型的重要成员，近年来取得了飞速的发展。相比自回归语言模型，扩散语言模型具**并行生成**、**双向上下文**、**更好的可控生成性**以及**迭代细化**等优势，是一个非常值得研究的领域。***块扩散语言模型***通过在自回归语言模型和扩散语言模型之间插值（块间是自回归分布，而块内执行扩散），在生成质量和速度上相比之前的扩散语言模型都有显著提高。
@@ -58,6 +59,7 @@
   运行脚本后结果会打印在终端中，并且也会保存在bd3lms/varlen_sample_logs目录下。
 
 * **效果展示**
+  
   我们通过调整脚本中的SEED和LENGTH来控制文本生成内容和长度。
   
   1、SEED=3 LENGTH=512
