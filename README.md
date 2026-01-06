@@ -47,12 +47,7 @@
   mkdir checkpoints
   ```
 
-  3、安装依赖
-  ```bash
-  pip install -r requirements.txt
-  ```
-
-  4、运行脚本
+  3、运行脚本
   ```bash
   bash scripts/var_len/varlen_bd3lm.sh
   ```
